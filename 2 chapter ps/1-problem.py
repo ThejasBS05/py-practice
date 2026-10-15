@@ -21,10 +21,9 @@
 # n = "na  me"
 # print(n.replace("  ", " "))
 
-a  = (7, 0, 8, 0, 0, 9)
-ls = ()
-for i in range (len(a)-1, -1, -1):
-    ls.append(a[i])
-print(ls)
+# a  = (7, 0, 8, 0, 0, 9)
+# print(sum (a))
 
-
+a = [1,1,2,2,3,4]
+b  =set(a)
+print(b)
