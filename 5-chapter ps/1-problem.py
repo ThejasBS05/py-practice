@@ -22,18 +22,35 @@
 # print(len(s))
 # print(s)
 
-a = {}
-print("Enter 4 names and language\n")
-name = input("Enter friend name:\n")
-language = input("Enter fav language:\n")
-a.update({name:language})
-name = input("Enter friend name:\n")
-language = input("Enter fav language:\n")
-a.update({name:language})
-name = input("Enter friend name:\n")
-language = input("Enter fav language:\n")
-a.update({name:language})
-name = input("Enter friend name:\n")
-language = input("Enter fav language:\n")
-a.update({name:language})
-print(a)
+# a = {}
+# print("Enter 4 names and language\n")
+# name = input("Enter friend name:\n")
+# language = input("Enter fav language:\n")
+# a.update({name:language})
+# name = input("Enter friend name:\n")
+# language = input("Enter fav language:\n")
+# a.update({name:language})
+# name = input("Enter friend name:\n")
+# language = input("Enter fav language:\n")
+# a.update({name:language})
+# name = input("Enter friend name:\n")
+# language = input("Enter fav language:\n")
+# a.update({name:language})
+# print(a)
+
+# a = {
+#     "kya":"what",
+#     "aao":"come",
+#     "jao":"go"
+# }
+# a.update({"kaam":"work"})
+# word = input("Enter hindi word: ")
+# print(a[word])
+
+# s = set()
+# for i in range (1,6):
+#     a = int(input("Enter a number: "))
+#     s.add(a)
+# print(s)    
+# s = {18, "18"}
+# print(s)

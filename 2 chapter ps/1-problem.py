@@ -23,7 +23,8 @@
 
 # a  = (7, 0, 8, 0, 0, 9)
 # print(sum (a))
-
-a = [1,1,2,2,3,4]
-b  =set(a)
-print(b)
+# ans = ""
+# a = "ronit"
+# for i in a:
+#     ans = i+ans
+# print(ans)
