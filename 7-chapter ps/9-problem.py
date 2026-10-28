@@ -1,10 +1,28 @@
-word = "pomogranate"
+# word = "pomogranate"
 
-d = {}
-for i in word:
-    if i in d:
-        d[i] += 1
+# d = {}
+# for i in word:
+#     if i in d:
+#         d[i] += 1
+#     else:
+#         d[i] = 1
+
+# print(d)
+
+"""
+* * * 
+*   *   for n = 3 
+* * *  
+"""
+#pattern problem
+
+n = 3
+for i in range(1, n+1):
+    if (i == 1 or i ==n):
+        print("*" * n)
     else:
-        d[i] = 1
+        print("*", end = "")
+        print(" "*(n-2), end = "")
+        print("*")
+    
 
-print(d)
