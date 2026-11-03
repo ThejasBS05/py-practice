@@ -38,3 +38,16 @@
 # for i in range(n,0,-1):
 #     print(" " * (n-i) + "*" * (i*2-1))
 
+
+num = [40, 30, 20, 10]
+one = num[0]
+two = 0
+for i in num:
+    if i > one:
+        two = one
+        one = i
+    elif (two < i and two != one):
+        two = i
+    print(two)
+print(one)
+print(two)
