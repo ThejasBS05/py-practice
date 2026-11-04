@@ -8,10 +8,11 @@
 # for i in s:
 #     g = i+g
 # print(g)
-print(rev("hello"))
-def rev(n):
-    g = ""
-    l = len(n)
-    if n == -1:
-        return ""
-    return 
+# print(rev("hello"))
+# def rev(n):
+#     g = ""
+#     l = len(n)
+#     if n == -1:
+#         return ""
+#     return 
+
