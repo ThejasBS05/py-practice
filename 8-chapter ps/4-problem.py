@@ -37,3 +37,10 @@
 
 # rec(3,1)
 
+def rec(n):
+    if n == 0:
+        return
+    rec(n-1)
+    print(n) #going way up
+
+rec(5) 
