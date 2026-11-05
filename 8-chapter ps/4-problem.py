@@ -61,3 +61,11 @@
 #     print(n)
 
 # num(5)
+# i = 0
+# j = 1
+def fib(n, a, b):
+    if a > n:
+        return
+    print(a)
+    fib(n,b, b+a)
+fib(13,0,1)
