@@ -47,8 +47,17 @@
 
 #sum of first n natural numbers recursively
 
-def add(n):
-    if n == 1:
-        return 1
-    return n + add(n-1)
-print(add(5))
+# def add(n):
+#     if n == 1:
+#         return 1
+#     return n + add(n-1)
+# print(add(5))
+
+
+# def num(n):
+#     if n < 0:
+#         return 
+#     num(n-1)
+#     print(n)
+
+# num(5)
