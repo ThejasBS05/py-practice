@@ -37,10 +37,18 @@
 
 # rec(3,1)
 
-def rec(n):
-    if n == 0:
-        return
-    rec(n-1)
-    print(n) #going way up
+# def rec(n):
+#     if n == 0:
+#         return
+#     rec(n-1)
+#     print(n) #going way up
 
-rec(5) 
+# rec(5) 
+
+#sum of first n natural numbers recursively
+
+def add(n):
+    if n == 1:
+        return 1
+    return n + add(n-1)
+print(add(5))
